@@ -11,13 +11,14 @@ export default function Home() {
       <div className="hero-banner py-16 relative overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <Image
-              src="/placeholder.svg?height=400&width=400"
-              alt="Students learning computer skills"
-              width={400}
-              height={400}
-              className="rounded-full border-4 border-white"
-            />
+          <Image
+                 src="/203b2MIdJk6j8X5jobSlider.jpeg"
+                 alt="Admission Open Banner"
+                 width={800}
+                 height={400}
+                  className="rounded-lg w-full"
+                 />
+
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">कंप्यूटर एक्सपर्ट बनने के लिए Raj Saini  </h1>
