@@ -9,25 +9,19 @@ export default function Home() {
     <div>
       {/* Hero Banner */}
       <div className="hero-banner py-16 relative overflow-hidden">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-          <Image
-                 src="/203b2MIdJk6j8X5jobSlider.jpeg"
-                 alt="Admission Open Banner"
-                 width={800}
-                 height={400}
-                  className="rounded-lg w-full"
-                 />
+  <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+    <div className="w-full">
+      <Image
+        src="/203b2MIdJk6j8X5jobSlider.jpeg"
+        alt="Admission Open Banner"
+        width={1200}
+        height={600}
+        className="rounded-lg w-full h-auto"
+      />
+    </div>
+  </div>
+</div>
 
-          </div>
-          <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">कंप्यूटर एक्सपर्ट बनने के लिए Raj Saini  </h1>
-            <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-6">आज ही प्रवेश लीजिए !</h2>
-            <div className="bg-blue-900 text-white p-4 rounded-lg inline-block">
-              <p className="text-xl font-semibold">DCA, CCC, Tally और O-LEVEL</p>
-            </div>
-          </div>
-        </div>
 
         {/* Decorative elements */}
         <div className="absolute top-10 left-10">
