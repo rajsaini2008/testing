@@ -33,7 +33,7 @@ export default function AboutUs() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold text-blue-800 mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4">
-                Founded in 2008, Krishna Computers has been at the forefront of computer education in Kaman, Rajasthan.
+                Founded in 2008,By Ompraksh Saini. Krishna Computers has been at the forefront of computer education in Kaman, Rajasthan.
                 What started as a small training center has now grown into a comprehensive institute offering a wide
                 range of courses.
               </p>
