@@ -20,7 +20,7 @@ export default function Home() {
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">कंप्यूटर एक्सपर्ट बनने के लिए sampark </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">कंप्यूटर एक्सपर्ट बनने के लिए Raj Saini  </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-6">आज ही प्रवेश लीजिए !</h2>
             <div className="bg-blue-900 text-white p-4 rounded-lg inline-block">
               <p className="text-xl font-semibold">DCA, CCC, Tally और O-LEVEL</p>
