@@ -22,7 +22,6 @@ export default function Home() {
   </div>
 </div>
 
-
         {/* Decorative elements */}
         <div className="absolute top-10 left-10">
           <Image src="/placeholder.svg?height=50&width=50" alt="Wifi icon" width={50} height={50} />
