@@ -136,7 +136,7 @@ export default function ContactUs() {
             <div className="aspect-[16/9] bg-gray-200 rounded-lg overflow-hidden">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.080008111948!2d77.27366737418049!3d27.652996227888853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39731eda89a37341%3A0xf3aae5a3f0edf8c3!2sKRISHNA%20COMPUTERS!5e0!3m2!1sen!2sin!4v1745657614815!5m2!1sen!2sin" 
-                width="100%" 
+                width="85%" 
                 height="100%" 
                 style={{ border: 0 }}
                 allowFullScreen
