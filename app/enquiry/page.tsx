@@ -3,7 +3,7 @@ export default function EnquiryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Blue header section */}
-      <div className="bg-blue-800 h-48 flex items-center justify-center">
+      <div className="bg-blue- h-48 flex items-center justify-center">
         <div className="text-center text-white">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Enquiry</h1>
         <p className="text-xl max-w-3xl mx-auto">
@@ -15,14 +15,19 @@ export default function EnquiryPage() {
       {/* Form section */}
       <div className="px-8 md:px-16 lg:px-32 py-10">
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          
+
+          {/* Course of Interest dynamic */}
           <div>
-            <label>Select Your Institute *</label>
+            <label>Course of Interest *</label>
             <select className="w-full border rounded p-2">
-              <option>Please Select</option>
+              <option>Please Select Course</option>
+              {courses.map((course) => (
+                <option key={course.id} value={course.title}>
+                  {course.fullTitle}
+                </option>
+              ))}
             </select>
           </div>
-
           <div className="flex space-x-2">
             <div className="w-1/3">
               <label>Abbreviation</label>
