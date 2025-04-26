@@ -113,7 +113,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-          <Link href="/about-us" passHref>
+          <Link href="/courses" passHref>
             <Button className="bg-blue-800 hover:bg-blue-900 text-white">View All Courses</Button>
             </Link>
           </div>
@@ -129,6 +129,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-red-500 hover:bg-red-600 text-white">Apply Now</Button>
+            <Link href="/about-us" passHref></Link>
             <Button className="bg-transparent hover:bg-white hover:text-blue-800 border border-white">
               Contact Us
             </Button>
