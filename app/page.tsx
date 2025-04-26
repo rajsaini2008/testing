@@ -11,14 +11,16 @@ export default function Home() {
       <div className="hero-banner py-16 relative overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <Image
-              src="/ramu.jpeg"
-              alt="University courses information"
-              width={409}
-              height={409}
-              className="rounded-lg border-4 border-white"
-            />
-          </div>
+          <Image
+                            src="/ramu.jpeg"
+                            alt="University courses information"
+                            width={409}
+                            height={409}
+                            className="rounded-lg border-4 border-white"
+                        />
+                    </div>
+                </div>
+            </div>
 
       {/* Feature Cards */}
       <div className="container mx-auto px-4 -mt-16 relative z-10">
