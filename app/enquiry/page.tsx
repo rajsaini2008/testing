@@ -1,3 +1,4 @@
+import { courses } from "@/lib/courses";
 // app/enquiry/page.tsx
 export default function EnquiryPage() {
   return (
