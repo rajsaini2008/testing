@@ -12,11 +12,11 @@ export default function Home() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/placeholder.svg?height=400&width=400"
-              alt="Students learning computer skills"
-              width={400}
-              height={400}
-              className="rounded-full border-4 border-white"
+              src="/ramu.jpeg"
+              alt="University courses information"
+              width={409}
+              height={409}
+              className="rounded-lg border-4 border-white"
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">
