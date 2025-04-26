@@ -9,7 +9,7 @@ export default function Navigation() {
         <Link href="/" className="mb-4 md:mb-0">
           <div className="flex items-center">
             <Image
-              src="/placeholder.svg?height=80&width=80"
+              src="/placeholder-logo.png?height=80&width=80"
               alt="Krishna Computer Logo"
               width={80}
               height={80}
