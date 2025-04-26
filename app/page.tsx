@@ -74,7 +74,9 @@ export default function Home() {
             fosters innovation and creativity. Whether you are a beginner eager to start your journey in technology or a
             professional looking to enhance your skills.
           </p>
+          <Link href="/about-us" passHref>
           <Button className="bg-blue-800 hover:bg-blue-900 text-white">Learn More About Us</Button>
+          </Link>
         </div>
       </section>
 
