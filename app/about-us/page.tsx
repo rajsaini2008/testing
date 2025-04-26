@@ -102,38 +102,61 @@ export default function AboutUs() {
       </section>
 
       {/* Our Team */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+<section className="py-16">
+    <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-blue-800 mb-4">Our Team</h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Meet the dedicated professionals who make Krishna Computers a center of excellence
+                Meet the dedicated professionals who make Krishna Computers a center of excellence
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((member) => (
-              <Card key={member} className="border-none shadow-lg overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image
-                    src={`/papa.jpg?height=300&width=300&text=Team Member ${member}`}
-                    alt={`Team Member ${member}`}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-gray-800 mb-1">Team Member {member}</h3>
-                  <p className="text-blue-800 font-medium mb-3">Position Title</p>
-                  <p className="text-gray-600">
-                    Brief description about the team member and their expertise in the field of computer education.
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
-      </section>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+                {
+                    id: 1,
+                    name: "Omprakash Saini",
+                    position: "Founder & Director",
+                    image: "/papa.jpg",
+                    description: "20+ years experience in computer education. Specializes in programming and system design."
+                },
+                {
+                    id: 2,
+                    name: "Ramjeet Saini",
+                    position: "Manager",
+                    image: "/ramjeet.png",
+                    description: "Expert in DCA, PGDCA courses with focus on practical implementation."
+                },
+                {
+                    id: 3,
+                    name: "Raj saini",
+                    position: "Tally Expert",
+                    image: "/triloki.jpg",
+                    description: "Certified Tally trainer with 10+ years of accounting software experience."
+                }
+
+            ].map((member) => (
+                <Card key={member.id} className="border-none shadow-lg overflow-hidden">
+                    <div className="aspect-square relative">
+                        <Image
+                            src={member.image}
+                            alt={`Team Member ${member.name}`}
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+                    <CardContent className="p-6 text-center">
+                        <h3 className="text-xl font-bold text-gray-800 mb-1">{member.name}</h3>
+                        <p className="text-blue-800 font-medium mb-3">{member.position}</p>
+                        <p className="text-gray-600">
+                            {member.description}
+                        </p>
+                    </CardContent>
+                </Card>
+            ))}
+        </div>
+    </div>
+</section>
 
       {/* Why Choose Us */}
       <section className="py-16 bg-blue-800 text-white">
