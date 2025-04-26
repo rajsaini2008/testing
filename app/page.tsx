@@ -113,7 +113,9 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
+          <Link href="/about-us" passHref>
             <Button className="bg-blue-800 hover:bg-blue-900 text-white">View All Courses</Button>
+            </Link>
           </div>
         </div>
       </section>
