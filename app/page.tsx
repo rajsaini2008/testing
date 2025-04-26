@@ -128,7 +128,9 @@ export default function Home() {
             Join Krishna Computers today and take the first step towards a successful future in the digital world.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/enquiry" passHref>
             <Button className="bg-red-500 hover:bg-red-600 text-white">Apply Now</Button>
+            </Link>
             <Link href="/about-us" passHref>
             <Button className="bg-transparent hover:bg-white hover:text-blue-800 border border-white">
               Contact Us
