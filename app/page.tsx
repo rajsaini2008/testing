@@ -8,18 +8,15 @@ export default function Home() {
   return (
     <div>
       {/* Hero Banner */}
-      <div className="hero-banner py-16 relative overflow-hidden">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-          <Image
-                            src="/ramu.jpeg"
-                            alt="University courses information"
-                            width={600}
-                            height={400}
-                            className="rounded-lg border-4 border-white"
-                        />
-                    </div>
-                </div>
+      <div className="w-full">
+                <Image
+                    src="/ramu.jpeg"
+                    alt="University courses information"
+                    width={1200}  // Adjusted width for full size
+                    height={800}  // Adjusted height proportionally
+                    className="w-full h-auto object-cover"
+                    priority
+                />
             </div>
 
       {/* Feature Cards */}
