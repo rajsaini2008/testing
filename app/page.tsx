@@ -14,8 +14,8 @@ export default function Home() {
           <Image
                             src="/ramu.jpeg"
                             alt="University courses information"
-                            width={409}
-                            height={409}
+                            width={600}
+                            height={400}
                             className="rounded-lg border-4 border-white"
                         />
                     </div>
