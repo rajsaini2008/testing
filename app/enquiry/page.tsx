@@ -3,10 +3,12 @@ export default function EnquiryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Blue header section */}
-      <div className="bg-blue-600 h-48 flex items-center justify-center">
+      <div className="bg-blue-800 h-48 flex items-center justify-center">
         <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">Enquiry</h1>
-          <p className="mt-2 text-lg">Fill all fields completely for a good enquiry</p>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">Enquiry</h1>
+        <p className="text-xl max-w-3xl mx-auto">
+           Fill all Feilds completely for a good Addmition Enquiry
+          </p>
         </div>
       </div>
 

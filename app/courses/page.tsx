@@ -155,7 +155,7 @@ export default function Courses() {
                             <Link href={`/courses/${course.id}`}>
                               <Button className="bg-blue-800 hover:bg-blue-900">Learn More</Button>
                             </Link>
-                            <Link href="/apply" className="text-red-500 hover:underline font-medium">
+                            <Link href="/enquiry" className="text-red-500 hover:underline font-medium">
                               Apply Now
                             </Link>
                           </div>
