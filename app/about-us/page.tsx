@@ -116,7 +116,7 @@ export default function AboutUs() {
               <Card key={member} className="border-none shadow-lg overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src={`/placeholder.svg?height=300&width=300&text=Team Member ${member}`}
+                    src={`/papa.jpg?height=300&width=300&text=Team Member ${member}`}
                     alt={`Team Member ${member}`}
                     fill
                     className="object-cover"

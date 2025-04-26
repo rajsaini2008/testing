@@ -21,7 +21,7 @@ export default function Courses() {
       duration: "6 months",
       description:
         "A comprehensive course covering computer fundamentals, office applications, internet usage, and basic programming concepts.",
-      image: "/rahul.jpg?height=200&width=300&text=DCA",
+      image: "/rahul1.jpg?height=200&width=300&text=DCA",
     },
     {
       id: "ccc",
@@ -31,7 +31,7 @@ export default function Courses() {
       duration: "3 months",
       description:
         "An entry-level course designed to familiarize students with basic computer operations and applications.",
-      image: "/placeholder.svg?height=200&width=300&text=CCC",
+      image: "/rahul3.png?height=200&width=300&text=CCC",
     },
     {
       id: "tally",
@@ -40,7 +40,7 @@ export default function Courses() {
       category: "professional",
       duration: "3 months",
       description: "Learn complete accounting software with GST implementation for business and financial management.",
-      image: "/placeholder.svg?height=200&width=300&text=Tally",
+      image: "/rahul4.png?height=200&width=300&text=Tally",
     },
     {
       id: "o-level",
@@ -59,7 +59,7 @@ export default function Courses() {
       category: "advanced",
       duration: "4 months",
       description: "Learn to create responsive websites using HTML, CSS, JavaScript, and popular frameworks.",
-      image: "/placeholder.svg?height=200&width=300  CSS, JavaScript, and popular frameworks.",
+      image: "/rahul2.png?height=200&width=300  CSS, JavaScript, and popular frameworks.",
       image: "/placeholder.svg?height=200&width=300&text=Web Design",
     },
     {
@@ -79,7 +79,7 @@ export default function Courses() {
       duration: "2 months",
       description:
         "Learn to use Word, Excel, PowerPoint, and Outlook for professional document creation and management.",
-      image: "/placeholder.svg?height=200&width=300&text=MS Office",
+      image: "/rahul2.png?height=200&width=300&text=MS Office",
     },
     {
       id: "graphic-design",
