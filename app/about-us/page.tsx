@@ -23,7 +23,7 @@ export default function AboutUs() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/placeholder-logo.png?height=400&width=600"
                 alt="Krishna Computers Building"
                 width={600}
                 height={400}

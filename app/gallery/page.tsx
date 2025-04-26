@@ -11,46 +11,46 @@ export default function Gallery() {
   ]
 
   const galleryImages = [
-    { id: 1, category: "campus", src: "/placeholder.svg?height=300&width=400&text=Campus 1", alt: "Campus Building" },
-    { id: 2, category: "campus", src: "/placeholder.svg?height=300&width=400&text=Campus 2", alt: "Campus Garden" },
+    { id: 1, category: "campus", src: "/placeholder-logo.png?height=300&width=400&text=Campus 1", alt: "Campus Building" },
+    { id: 2, category: "campus", src: "/placeholder-logo.png?height=300&width=400&text=Campus 2", alt: "Campus Garden" },
     {
       id: 3,
       category: "classrooms",
-      src: "/placeholder.svg?height=300&width=400&text=Classroom 1",
+      src: "/placeholder-logo.png?height=300&width=400&text=Classroom 1",
       alt: "Computer Lab",
     },
     {
       id: 4,
       category: "classrooms",
-      src: "/placeholder.svg?height=300&width=400&text=Classroom 2",
+      src: "/placeholder-logo.png?height=300&width=400&text=Classroom 2",
       alt: "Lecture Hall",
     },
-    { id: 5, category: "events", src: "/placeholder.svg?height=300&width=400&text=Event 1", alt: "Annual Function" },
-    { id: 6, category: "events", src: "/placeholder.svg?height=300&width=400&text=Event 2", alt: "Workshop" },
+    { id: 5, category: "events", src: "/placeholder-logo.png?height=300&width=400&text=Event 1", alt: "Annual Function" },
+    { id: 6, category: "events", src: "/placeholder-logo.png?height=300&width=400&text=Event 2", alt: "Workshop" },
     {
       id: 7,
       category: "students",
-      src: "/placeholder.svg?height=300&width=400&text=Students 1",
+      src: "/placeholder-logo.png?height=300&width=400&text=Students 1",
       alt: "Students Working",
     },
     {
       id: 8,
       category: "students",
-      src: "/placeholder.svg?height=300&width=400&text=Students 2",
+      src: "/placeholder-logo.png?height=300&width=400&text=Students 2",
       alt: "Graduation Ceremony",
     },
-    { id: 9, category: "campus", src: "/placeholder.svg?height=300&width=400&text=Campus 3", alt: "Reception Area" },
+    { id: 9, category: "campus", src: "/placeholder-logo.png?height=300&width=400&text=Campus 3", alt: "Reception Area" },
     {
       id: 10,
       category: "classrooms",
-      src: "/placeholder.svg?height=300&width=400&text=Classroom 3",
+      src: "/placeholder-logo.png?height=300&width=400&text=Classroom 3",
       alt: "Programming Lab",
     },
-    { id: 11, category: "events", src: "/placeholder.svg?height=300&width=400&text=Event 3", alt: "Tech Fest" },
+    { id: 11, category: "events", src: "/placeholder-logo.png?height=300&width=400&text=Event 3", alt: "Tech Fest" },
     {
       id: 12,
       category: "students",
-      src: "/placeholder.svg?height=300&width=400&text=Students 3",
+      src: "/placeholder-logo.png?height=300&width=400&text=Students 3",
       alt: "Project Presentation",
     },
   ]

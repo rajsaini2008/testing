@@ -21,7 +21,7 @@ export default function Courses() {
       duration: "6 months",
       description:
         "A comprehensive course covering computer fundamentals, office applications, internet usage, and basic programming concepts.",
-      image: "/placeholder.svg?height=200&width=300&text=DCA",
+      image: "/rahul.jpg?height=200&width=300&text=DCA",
     },
     {
       id: "ccc",
