@@ -12,7 +12,7 @@ export default function Login() {
         <div className="text-center">
           <Link href="/" className="inline-block">
             <Image
-              src="/placeholder.svg?height=80&width=80"
+              src="/placeholder-logo.png?height=80&width=80"
               alt="Krishna Computer Logo"
               width={80}
               height={80}
